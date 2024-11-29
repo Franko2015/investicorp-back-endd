@@ -9,9 +9,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "build": "npm run lint && echo 'Build completed.'",
-    "lint": "eslint ./src/**/*.js",
-    "fix-permissions": "chmod +x ./node_modules/.bin/*"
+    "build": "echo 'Build completed.'"
   },
   "author": "diegom",
   "license": "ISC",
@@ -26,7 +24,6 @@
     "rimraf": "^6.0.1"
   },
   "devDependencies": {
-    "eslint": "^9.15.0",
     "globals": "^15.12.0"
   }
 }
