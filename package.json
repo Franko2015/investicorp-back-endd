@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=14.17.0"
+  },
   "name": "back-end",
   "version": "1.0.0",
   "description": "vesticorp",
