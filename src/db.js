@@ -6,7 +6,7 @@ export const dbconfig = {
   user: 'vestiUsuario',
   password: '3822',
   database: 'vesticorp',
-  port: 3308,
+  port: 52289,
   connectionLimit: 21 // Máximo de conexiones simultáneas
 };
 
