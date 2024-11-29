@@ -1,0 +1,4 @@
+[phases]
+setup = "npm ci --omit=dev"
+build = "npm run build"
+start = "npm start"

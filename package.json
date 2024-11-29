@@ -9,8 +9,9 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "build": "npm run lint",
-    "lint": "eslint ./src/**/*.js"
+    "build": "npm run lint && echo 'Build completed.'",
+    "lint": "eslint ./src/**/*.js",
+    "fix-permissions": "chmod +x ./node_modules/.bin/*"
   },
   "author": "diegom",
   "license": "ISC",
